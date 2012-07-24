@@ -1,6 +1,8 @@
 ORIG_PN="distribute"
 inherit python3-distutils
 
+CATEGORY="Python"
+SUMMARY="Py3K package management tool"
 DESCRIPTION="PyPI Python eggs package management tool"
 
 python3_setuptools_CONTENTS="usr/bin/*-3.* "${PYTHON3_SITELIB#/}" usr/share/doc/"
