@@ -1,6 +1,9 @@
 ORIG_PN="distribute"
 inherit python3-distutils
 
+NAME="python3-setuptools"
+VERSION=0.6.30
+RELEASE=1
 CATEGORY="Python"
 SUMMARY="Py3K package management tool"
 DESCRIPTION="PyPI Python eggs package management tool"
