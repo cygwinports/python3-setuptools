@@ -1,12 +1,13 @@
-ORIG_PN="distribute"
 inherit python3-distutils
 
 NAME="python3-setuptools"
-VERSION=0.6.34
+VERSION=15.2
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Py3K package management tool"
 DESCRIPTION="PyPI Python eggs package management tool"
+
+ARCH=noarch
 
 python3_setuptools_CONTENTS="usr/bin/*-3.* "${PYTHON3_SITELIB#/}" usr/share/doc/"
 PKG_IGNORE="usr/bin/easy_install"
